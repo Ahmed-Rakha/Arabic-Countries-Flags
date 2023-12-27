@@ -46,5 +46,3 @@ setInterval(function () {
 container.onclick = function () {
   countryName.textContent = `'${countries[counter - 1] ?? 'unfound'}'`;
 };
-
-console.log('rakha');
